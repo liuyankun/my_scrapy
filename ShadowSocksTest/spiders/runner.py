@@ -6,7 +6,6 @@ from twisted.internet import reactor
 from scrapy.utils.log import configure_logging
 from scrapy.utils.project import get_project_settings
 
-from ShadowSocksTest.spiders.RenRenImage import RenRenImageSpider
 
 configure_logging({'LOG_FORMAT': '%(levelname)s: %(message)s'})
 
