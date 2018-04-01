@@ -74,7 +74,7 @@ SPLASH_COOKIES_DEBUG = True
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    'scrapy.contrib.pipeline.images.ImagesPipeline': 300
+    'scrapy.contrib.pipeline.images.ImagesPipeline': 900
 }
 
 IMAGES_STORE = './dir'
